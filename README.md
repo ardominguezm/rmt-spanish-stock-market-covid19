@@ -43,7 +43,7 @@ rmt-spanish-stock-market-covid19/
 ├── data/
 │   ├── raw/              # Raw downloaded price data (Yahoo Finance)
 │   ├── processed/        # Log-returns, aligned series, correlation matrices
-│   └── external/         # Supporting reference lists or metadata
+│   └── metadata/         # Supporting reference lists or metadata
 │
 ├── src/
 │   ├── 01_download_data.py
@@ -58,10 +58,6 @@ rmt-spanish-stock-market-covid19/
 │
 ├── results/
 │   ├── figures/          # All generated figures
-│   └── tables/           # Any exported tables
-│
-├── environment.yml        # Conda environment for reproducibility
-├── requirements.txt       # Pip-based alternative
 ├── LICENSE
 └── README.md
 ```
@@ -151,7 +147,7 @@ Domínguez-Monterroza, A., Jiménez-Martín, A., & Mateos-Caballero, A. (2025).
 Computational Economics, 66, 4543–4558.  
 https://doi.org/10.1007/s10614-024-10820-0
 
-A Zenodo DOI for the code and dataset will be added once the release is published.
+A Zenodo DOI for the code and dataset : https://doi.org/10.5281/zenodo.17770788
 
 ---
 
